@@ -9,9 +9,6 @@ public class User {
 		super();
 		this.id = id;
 		this.username = username;
-		this.password = password;
-		
-	}
-	
-	
+		this.password = password;		
+	}	
 }
