@@ -20,4 +20,10 @@ public class TestController {
 	public String testin2() {
 		return "One more time";
 	}
+	@GetMapping
+	public User testin3() {
+
+         User user = new User("213","Deepak","1234");
+         return user;
+	}
 }
